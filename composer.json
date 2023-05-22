@@ -1,0 +1,28 @@
+{
+  "name": "dumuchengshu/webman-crontab-task",
+  "description": "multiprocess task",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "dumuchengshu\\Task\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "dumuchengshu",
+      "email": "396656156@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">7.4",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "workerman/crontab": "^1.0",
+    "guzzlehttp/guzzle": "^7.6",
+    "illuminate/database": "^8.83",
+    "illuminate/redis": "^8.83",
+    "illuminate/events": "^8.83"
+  }
+}
